@@ -1,0 +1,27 @@
+.component {
+    margin: 0 auto 50px;
+    display: grid;
+    grid-template-columns: auto  60px;
+    grid-template-rows: max-content auto;
+    grid-template-areas: 
+    "title remove"
+    "post post";
+    border: 1px solid var(--dark);
+    padding: 8px 24px;
+    border-radius: 16px;
+    h3 {
+        grid-area: title;
+        text-align: start;
+    }
+    p {
+        grid-area: post;
+        text-align: start;
+    }
+}
+
+.edit {
+    grid-area: edit;
+}
+.remove {
+    grid-area: remove;
+}

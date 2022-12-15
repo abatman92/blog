@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin: 0;
+  border: none;
+  background: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong {
+  color: var(--dark)
+}
+button {
+  color: var(--gray);
+}
+main {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+:root {
+  --dark: #1D3F6E;
+  --gray: #586679;
+  --error: #FF7373;
 }

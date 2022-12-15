@@ -1,0 +1,4 @@
+import { HandySvg } from "handy-svg";
+import svg from './edit.svg'
+
+export const EditIcon = () => <HandySvg src={svg} width='24' height='24' fill="currentColor" />
